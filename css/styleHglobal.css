@@ -29,7 +29,9 @@ header {
     font-weight: 400;
     color: #4a4a4a;
 }
-
+.communication h5 a {
+    color: #4a4a4a;
+}
 
 .communication span {
    font-family: 'Roboto', sans-serif;
