@@ -1,4 +1,4 @@
-.galery, #photo, img, #gallery {
+.galery, #photo, img, #gallery, html, body, container {
     border: none;
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ html, body {
 }
 .container {
     opacity: 0.96;
-   position: relative;
+   
    height: 100%;
 }
 @media screen and (max-width: 903px) {
