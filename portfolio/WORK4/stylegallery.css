@@ -49,10 +49,12 @@ html, body {
 .container {
     opacity: 0.96;
    height: 100%;
-   border-top: none;
-   border-bottom: none;
-   padding-bottom: none;
-   box-shadow: none;
+   padding-top: 0;
+   padding-bottom: 0;
+   
+}
+.dva {
+	margin-top: 60px;
 }
 @media screen and (max-width: 903px) {
     #photo img {
