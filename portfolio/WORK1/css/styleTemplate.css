@@ -1,0 +1,387 @@
+
+/* fonts */
+@font-face {
+    font-family: MuseoSansCyrl700;
+    src: url(../fonts/MuseoSansCyrl700.otf);
+    src: url(../fonts/museosanscyrl700-webfont.woff);
+    src: url(../fonts/museosanscyrl700-webfont.woff2);
+    }
+@font-face {
+font-family: MuseoSansCyrl900;
+    src: url(../fonts/MuseoSansCyrl900.otf);
+    src: url(../fonts/museosanscyrl900-webfont.woff);
+    src: url(../fonts/museosanscyrl900-webfont.woff2);
+    }
+@font-face {
+    font-family: AvenirHeavy;
+    src: url(../fonts/AvenirHeavy.ttf);
+    src: url(../fonts/avenirheavy.woff2);
+    src: url(../fonts/avenirheavy.woff);
+    
+}
+@font-face {
+     font-family: AvenirMedium;
+    src: url(../fonts/AvenirMedium.otf);
+     src: url(../fonts/AvenirMedium.eot);
+    src: url(../fonts/AvenirMedium.woff);
+     src: url(../fonts/museosanscyrl500-webfont.woff2);
+    }
+@font-face {
+    font-family: AvenirLite;
+    src: url(../fonts/AvenirLightOblique.otf);
+    src: url(../fonts/AvenirLightOblique.woff);
+    src: url(../fonts/avenirlightoblique-webfont.woff2);
+    
+}
+@font-face {
+    font-family: MuseoSans500;
+    src: url(../fonts/MuseoSansCyrl500.otf);
+    src: url(../fonts/museosanscyrl500-webfont.woff);
+    src: url(../fonts/museosanscyrl500-webfont.woff2);
+}
+
+
+
+
+
+
+
+
+html, BODY, h2, h3, figure, img, figcaption, footer, .container, .Team, .gallery, p, span, br, section, .mission, div, .wrapper, .logo, .leftF, .bord, ul, .About {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   font:  normal 100% black Monospace, sans-serif;
+     
+}
+	
+ *, 
+*:before, 
+*:after { 
+box-sizing: border-box; 
+} 
+body {
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 950px;
+}
+.container {
+    width: 100%; /*960px*/
+ }
+body {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+h2, h3 { 
+    text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
+                1px 1px 1px rgba(255,255,255, 0.2), 
+                1px 1px 1px rgba(0,0,0, 0.7);
+}
+
+
+ul {
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+  }
+.mission, .About, .Team, nav,  footer {
+    padding: 0 16.666666666%; /*240px/1440px */
+    width: 100%;
+    
+}
+    
+.mission, .About, .Team {
+       text-align: center;
+}
+
+/*----NAV----*/
+nav {
+    height: 80px;
+    background-color: #f7fdfe;
+    color: #82868f;
+    font-family: MuseoSansCyrl700, Arial, sans-serif;
+    text-align: left;
+   }
+nav .container {
+   
+    padding-left: 1.041666666%; /*10px/960px*/
+    padding-right: 1.041666666%; /*10px/960px*/
+    padding-top: 25px; /*25px/80px*/
+    padding-bottom: 30px;
+}
+.Navigation {
+    float:right;
+    font-size: 0.875em; /*14px / 16px*/
+    height: 14px;
+    
+  /*  background-color: #478eba;*/
+  /*  padding: 33px 0px 33px 0;*/
+    
+  }
+
+
+.container .Navigation a {
+    text-decoration: none;
+    color: #82868f;
+    padding: 10px 30px;
+    border-radius: 32px;
+    margin-right: -16px;
+    text-transform: uppercase;    
+    }
+
+.container .Navigation a, x:-moz-any-link {
+    margin-right: 0;
+    
+}
+
+.Navigation a:hover {
+    background-color: #0ebfdd;
+    color: #f7fdfe;
+}
+.Navigation ul li {
+    display: inline;
+    
+    
+}
+.logo {
+     font-size: 1.875em; /*30px / 16px */
+    text-transform: uppercase;
+   /* padding-top: 30px;*/
+    text-align: left;
+}
+    
+/* section Mission */
+
+section {
+    height: 600px;
+    background: grey url(../images/3.jpg) no-repeat;
+       }
+section.mission .container {
+    padding: 0 8.33333333% 0 8.33333333%; /*80px/960px*/
+    padding-top: 400px;/*400px/600px*/
+}
+section.mission H2 {
+ color: #f7fdfe;
+    font-family: AvenirHeavy, monospace, sans-serif;
+    font-size: 2.75em; /*44px/16px */
+    }
+section.mission span {
+    font-family: Myriad Pro, AvenirHeavy, monospace, sans-serif;
+    font-size: 0.3636363636em;/*16px/44px*/
+    vertical-align: 35%;
+}
+section.mission p{
+    color: #f7fdfe;
+    font-family: AvenirMedium, monospace, sans-serif;
+    font-size:1.25em; /*20px / 16px */
+    line-height: 1.4em; /*28px/20px*/
+    padding-top: 22px;
+        }
+    
+/* About */
+
+.About {
+    padding-top: 62px;
+    height: 250px;
+    background-color: white;
+}
+.About H2 {
+    color: #0ebfdd;
+    font-family: AvenirHeavy, monospace, sans-serif;
+    font-size: 2.75em;/*44p/16px*/
+}
+.About p {
+    font-family: AvenirMedium, monospace, sans-serif;
+    font-size: 1.25em; /*20px / 16px */
+    color: #45494d;
+    line-height:  1.4em; /*28px/20px*/
+    padding-top: 22px; /*22px;*/
+   /* padding: 0 8.33333333% 0 8.33333333%; /*80px/960px*/*/
+}
+.About .container {
+    padding: 0 8.33333333% 0 8.33333333%;  /*80px/960px*/
+}
+/* team */
+.Team {
+    height: 600px;
+    background-color: #0ebfdd;
+    }
+.Team H3 {
+    font-size: 2.75em;/*44px/16px*/
+     font-family: AvenirHeavy, monospace, sans-serif;
+    color: white;
+    padding-top: 55px;
+}
+.gallery {
+    margin-left: 12.5%; /*120px;/960px*/
+    margin-right: 12.5%; /*120px;/960px*/
+    
+}
+.container figure { 
+    float: left;
+    width: 33.33333333%; /*240px;/720*/
+      padding: 105px 6.25% 105px 6.25%; /*45px/720px */
+    
+    }
+
+.container figure img {
+max-width: 100%;   
+}
+figcaption {
+    color: #f7fdfe;
+    font-family: AvenirLite, monospace, sans-serif;
+    font-size: 0.875em; /*14px/16px */
+    
+    
+}
+figcaption span{
+    font-style: normal;
+    font-size: 1.28571428571em; /*18px/14px*/
+    font-family: AvenirMedium, monospace, sans-serif;
+}
+.Team p {
+    text-transform: uppercase;
+    clear: both;
+    font-family: MuseoSansCyrl900, Arial, sans-serif;
+    font-size: 0.875em; /*14px/16px */
+    color: #f7fdfe;
+}
+.maps {
+    height: 500px;
+    }
+/* FOOTER */
+
+footer {
+    height: 120px;
+    background-color: #45494d;
+    color: #f7fdfe;
+    text-align: right;
+}
+.container .social, .contact {
+    text-align: right;
+    
+}
+footer ul li {
+    display: inline;
+}
+footer a {
+    color: #d7dee4;
+    font-size: 0.75em; /*12px/ 16px*/
+    font-family: MuseoSans500, Arial, sans-serif;
+    letter-spacing: 1px;
+    }
+footer .container{
+    padding: 0 1.04166667%; /*10px/960px*/
+}
+.bord {
+     padding: 20px 0 15px 0;
+    
+    border-bottom: 1px solid #73767a;
+}
+.leftF {
+    float: left;
+    padding-top: 13px;
+}
+
+.leftF li{
+     padding-right: 25px; /*35px/940px* fix 25px*/
+    padding-left: 0;
+    }
+.contact li a {
+    text-transform: none;
+    font-size: 0.6875em; /*11px/16px*/
+    color: #73767a;
+    padding: 0 5px 15px 5px;
+    text-decoration: none;
+  }
+#copyr {
+    padding-right: 0;
+}
+    
+.contact {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    height: 18px;
+    
+  }
+.social ul li{
+    margin-left:10px;
+      }
+.leftF a {
+    text-transform: uppercase;
+     text-decoration: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+li.contactSpr {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    
+    background: url(../images/Contacts.png) no-repeat;
+   
+}
+li.email {
+     background-position: 0 0px;
+}
+li.fb {
+    background-position: 0 -40px;
+}
+li.tw {
+    background-position: 0 -80px;
+}
+
+
+@media screen and (min-width:0\0) { 
+   
+    section.mission p{
+    color: #f7fdfe;
+   font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 22px;
+        font-weight: 700;
+        }
+    .About p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px; 
+    color: #45494d;
+    line-height:  28px; /*28px/20px*/
+    padding-top: 22px; /*22px;*/
+        font-weight: 700;
+   /* padding: 0 8.33333333% 0 8.33333333%; /*80px/960px*/*/
+}
+    figcaption span{
+    font-style: normal;
+    font-size: 18px; /*18px/14px*/
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+        
+    
+}
+    figcaption {
+    color: #f7fdfe;
+    font-family: AvenirLite, monospace, sans-serif;
+    font-size: 14px; /*14px/16px */
+    font-style: italic;
+    
+    
+}
+    .Team p {
+    
+    clear: both;
+    font-family: MuseoSansCyrl900, Arial, sans-serif;
+    font-size: 14px; /*14px/16px */
+    font-weight: 700;
+}
+    .leftF a {
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
