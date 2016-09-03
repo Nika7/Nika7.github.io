@@ -1,0 +1,138 @@
+.container, div, h2, p, body, .nav, ul, li, .blockA, .back, .feedback, .forward, a, h4 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body{
+        background-color:silver; 
+        color:black; 
+        margin:0; 
+        background-image:url(images/music-cover.jpg); 
+        background-attachment:fixed; 
+        background-size: 100%;
+        min-width: 800px;
+    
+      }
+
+@media screen and (max-width: 1120px) {
+    body {
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 700px;
+    max-width: 900px;
+    background-color: #040404;
+    color: white;
+    font-family:  'PT Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    opacity: 0.92;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    border-bottom: 0;
+    border-top: 0;
+}
+.container h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+    letter-spacing: 1.7px;
+    padding-left: 10px;
+}
+.container p {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.dva { 
+  background: linear-gradient(#a0a0a0, #a0a0a0 , #fff, #a0a0a0);
+}
+.dva h2 { 
+  color: #fff;
+  background: black;
+  mix-blend-mode: darken;
+}
+.dva:hover {
+    background: linear-gradient(#a0a0a0 0%, #fff 20%, #fff 80%, #a0a0a0 100%);
+}
+.container {
+    position: relative;
+    
+}
+.nav {
+    position: absolute;
+    top: 0;
+    right: 8%;
+    background: linear-gradient(to top, #434343 0%, #767676 30%, #aaa9a9 50%, #868585 70%, #535353 100%);
+    padding: 8px 8px 8px 8px;
+    border: solid 1px black;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 0;
+    border-top: none;
+    top: -33px;
+    
+}
+
+
+
+.nav ul li {
+    display: inline;
+    
+}
+.nav ul li a {
+    color: white;
+    display: inline-block;
+    padding-right: 7px;
+    
+}
+.blockA {
+    width: 40px;
+    height: 27px;
+    float: left;
+    background: url(images/442.png) no-repeat;
+}
+.blockA:hover {
+    width: 40px;
+    height: 27px;
+    float: left;
+    background: url(images/442.png) no-repeat;
+}
+ .back {
+    background-position: 0 -55px;
+}
+.feedback {
+    background-position: 0 -28px;
+}
+.forward {
+    background-position: 0 0;
+}
+ .back:hover {
+    background-position: -47px -55px;
+}
+.feedback:hover {
+    background-position: -47px -28px;
+}
+.forward:hover {
+    background-position: -47px 0;
+}
+
+.container h4 {
+    color: #555555;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    font-size: 10px;
+    margin-top: 30px;
+    padding-left: 10px;
+}

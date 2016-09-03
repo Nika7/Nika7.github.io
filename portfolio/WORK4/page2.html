@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nika>4aickovsky>Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|PT+Sans|PT+Sans+Caption" rel="stylesheet">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+    <link   href="stylePage1.css" rel="stylesheet" type="text/css">
+    <link   href="stylegallery.css" rel="stylesheet" type="text/css">
+    <script src="../../js/jquery-2.1.4.min.js"></script>
+    <script src="../../js/jquery-ui.min.js"></script>
+    <script>
+$(document).ready(function() {
+   $('.nav').hover(
+   function() {
+       console.log('mouseEnter');
+       $(this).stop().animate(
+           {
+              top: 0,
+              borderColor: 'rgb(78, 78, 78)'
+           },
+           500,
+           'easeInSine'
+       ); //end animate
+   },
+    function() {
+        console.log('mouseLeave');
+        $(this).stop().animate(
+            {
+                top: '-33px',
+                borderColor: 'rgb(0, 0, 0)'
+            },
+            1500,
+            'easeOutBounce'
+        ); // end animate2
+    }
+   ); //end hover
+}); // end ready
+</script>
+    
+    <script>
+$(document).ready(function() {
+	
+$('#gallery a').click(function(evt) {
+                evt.preventDefault();
+                var imgPath = $(this).attr('href');
+                var oldImage = $('#photo img');
+                var newImage = $('<img src="'+imgPath+'">');
+                newImage.hide();
+                $('#photo').prepend(newImage);
+                newImage.show();
+                oldImage.hide(function(){
+                    $(this).remove();
+                    
+                }); //end fadeout
+                      });   // end click
+                $('#gallery a:first').click();
+	
+	
+}); // end ready
+</script>
+</head>
+<body>
+  
+   <div class="container">
+   
+   <div class="nav">
+      <ul>
+          <li><a class="blockA back" href="music1.html"></a></li>
+          <li><a class="blockA feedback" href="../../index.html"></a></li>
+          <li><a class="blockA forward" href="page4.html"></a></li>
+      </ul>
+  </div>
+   <div class="dva">
+       <h2>Галерея. Чайковский.
+       </h2>
+   </div>
+    
+    
+    <div class="galery">
+       
+       
+       <div id="gallery"> 
+       <a href="../Work3/images/gallery/58992669.png"><img src="../Work3/images/gallery/photomin1.jpg" alt="Чайковский."></a> 
+     
+       
+       <a href="../Work3/images/gallery/Chaikovskii.jpg"><img src="../Work3/images/gallery/photomin4.jpg" alt="Чайковский, молодость."></a>
+       <a href="../Work3/images/gallery/chaikovskii1.jpg"><img src="../Work3/images/gallery/photomin5.jpg" alt="Чайковский. Семья."></a>
+       <a href="../Work3/images/gallery/i_028.jpg"><img src="../Work3/images/gallery/photomin6.jpg" alt="Чайковский, зрелость."></a>
+       <a href="../Work3/images/gallery/liektsiia-kontsiert-v-ghostiakh-u-dietskogho-al-boma-chaikovskogho_1.jpeg"><img src="../Work3/images/gallery/photomin7.jpg"  alt="Чайковский."></a>
+       <a href="../Work3/images/gallery/Petr-Ilich-CHajkovskij.jpg"><img src="../Work3/images/gallery/photomin8.jpg"  alt="Чайковский и Давыдов."></a>
+       <a href="../Work3/images/gallery/photo_1.jpg"><img src="../Work3/images/gallery/photomin9.jpg"  alt="Чайковский. Детство."></a>
+       <a href="../Work3/images/gallery/s7777_1318590012_2.jpg"><img src="../Work3/images/gallery/photomin10.jpg"  alt="Чайковский. Молодость."></a>
+       <a href="../Work3/images/gallery/Tchaikovsky_in_1860_as_Ministry_of_Justice_employee.gif"><img src="../Work3/images/gallery/photomin11.gif"  alt="Чайковский. Молодость."></a>
+       
+       
+       
+       
+       </div>
+       
+			<div id="photo"></div>
+       
+       
+       
+       
+       
+     </div>
+    
+    
+    <h4>Copyright ©2015 Ника Бушуева.</h4>
+    </div>
+   
+</body>
+</html>

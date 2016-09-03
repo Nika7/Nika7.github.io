@@ -1,0 +1,72 @@
+body, ul, li, a, nav, div, .container, .navigation, figure, .wrapper {
+    margin: 0;
+    padding: 0;
+    font: normal 100% Aial, sans-serif;
+    
+}
+body {
+    background: black url(images/piano1.jpg) no-repeat 10%;
+    background-size: 100% auto;
+    max-height: 100%;
+    text-align: center;
+    min-width: 800px;
+}
+@media screen and (max-width: 1120px) {
+    body {
+        background-size: cover;
+        height: 100vh;
+    }
+}
+.wrapper {
+    
+    padding: 5% 0 50px 0;
+}
+.container {
+    height: 540px;
+    width: 800px;
+    border: 3px solid #0b0b0b;
+    border-radius: 30px;
+    background-color: #101010;
+    opacity: 0.85;
+    margin: auto auto;
+}
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #0b0b0b;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+figure {
+    
+    padding: 20px;
+    height: 500px;
+    float: left; 
+}
+ul li {
+    list-style: none;
+    padding: 30px 0 10px 20px;
+    text-align: left;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    
+    font-family:  'Times New Roman', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+ 
+    
+}
+.navigation a:hover {
+    background-color: #070707;
+    margin-left: -1px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.navigation {
+    padding-top: 7%;
+}

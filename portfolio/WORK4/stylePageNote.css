@@ -1,0 +1,65 @@
+.graf, .pica, img, h3, p, a, .downl {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.table {
+    padding-top: 20px;
+}
+.graf {
+    height: 210px;
+    width: 300px;
+    float: left;
+    position: relative;
+}
+.graf .pica {
+    float: left;
+    height: 120px;
+    overflow: hidden;
+    margin: 5px 15px 5px 5px;
+}
+h4 {
+    clear: both;
+}
+.graf p {
+    font-family: 'PT Sans Caption', sans-serif;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.downl {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 5px;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 90px;
+}
+.downl:hover {
+    color: #1816e4;
+}
+h3 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+    .table {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width: 973px) and (min-width: 900px) {
+    .table {
+        padding-left: 13.5%;
+        padding-right: 13.5%;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 801px) {
+    .table {
+        padding-left: 11%;
+        
+    }
+}

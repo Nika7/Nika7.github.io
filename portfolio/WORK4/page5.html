@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nika>4aickovsky>Tsitat</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|PT+Sans|PT+Sans+Caption" rel="stylesheet">
+    <link   href="stylePage1.css" rel="stylesheet" type="text/css">
+    <script src="../../js/jquery-2.1.4.min.js"></script>
+    <script src="../../js/jquery-ui.min.js"></script>
+    <script>
+$(document).ready(function() {
+   $('.nav').hover(
+   function() {
+       console.log('mouseEnter');
+       $(this).stop().animate(
+           {
+              top: 0,
+              borderColor: 'rgb(78, 78, 78)'
+           },
+           500,
+           'easeInSine'
+       ); //end animate
+   },
+    function() {
+        console.log('mouseLeave');
+        $(this).stop().animate(
+            {
+                top: '-33px',
+                borderColor: 'rgb(0, 0, 0)'
+            },
+            1500,
+            'easeOutBounce'
+        ); // end animate2
+    }
+   ); //end hover
+}); // end ready
+</script>
+    
+</head>
+<body>
+  
+   <div class="container">
+   
+   <div class="nav">
+      <ul>
+          <li><a class="blockA back" href="music1.html"></a></li>
+          <li><a class="blockA feedback" href="../../index.html"></a></li>
+          <li><a class="blockA forward" href="page1.html"></a></li>
+      </ul>
+  </div>
+   <div class="dva">
+       <h2>Петр Ильич Чайковский. Цитаты.</h2>
+   </div>
+     <p>Помните, что даже человек, одаренный печатью гения, ничего не даст не только великого, но и среднего, если не будет адски трудиться.</p>
+     <p>Музыка есть сокровищница, в которую всякая национальность вносит своё, на общую пользу.</p>
+     <p>Там где слова бессильны, является во всеоружии своём более красноречивый язык, музыка.</p>
+     <p>Большой талант требует большого трудолюбия.</p>
+     <p>Жизнь имеет только тогда прелесть, когда состоит из чередования радостей и горя, из борьбы добра со злом, из света и тени, словом из разнообразия в единстве.</p>
+     <p>Вдохновение — это такая гостья, которая не любит посещать ленивых.</p>
+     <p>Красота в музыке состоит не в нагромождении эффектов и гармонических курьезов, а в простоте и естественности.</p>
+     <p>Если ты в самом себе не находишь мотивов для радостей, смотри на других людей. Ступай в народ. Смотри, как он умеет веселиться, отдаваясь безраздельно радостным чувствам</p>
+    
+    
+    <h4>Copyright ©2015 Ника Бушуева.</h4>
+    </div>
+   
+</body>
+</html>
