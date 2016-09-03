@@ -40,13 +40,17 @@
 	margin-left: 10px;
     padding: 10px 20px 10px 20px;
 }
+
+html, body {
+	height: 100vh;
+}
 .container {
     opacity: 0.96;
    
     
   
 
-  min-height: 86.5vh;
+  height: 100vh;
 }
 @media screen and (max-width: 903px) {
     #photo img {
