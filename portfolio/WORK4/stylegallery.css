@@ -42,7 +42,8 @@
 }
 .container {
     opacity: 0.96;
-    max-height: 86.5vh;
+    min-height:86.5vh;
+    max-height: 95vh;
 }
 @media screen and (max-width: 903px) {
     #photo img {
