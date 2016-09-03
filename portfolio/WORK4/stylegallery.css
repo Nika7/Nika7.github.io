@@ -42,7 +42,7 @@
 }
 .container {
     opacity: 0.96;
-    height: 90vh;
+    height: 80vh;
 }
 @media screen and (max-width: 903px) {
     #photo img {
