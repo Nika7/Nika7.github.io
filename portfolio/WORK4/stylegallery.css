@@ -43,10 +43,10 @@
 .container {
     opacity: 0.96;
    
-    position: fixed;
-  top: 0;
+    
+  
 
-  height: 100%;
+  min-height: 86.5vh;
 }
 @media screen and (max-width: 903px) {
     #photo img {
