@@ -45,13 +45,14 @@ html, body {
 	height: 100%;
 	
 }
-body {
-	background-size: cover;
-        height: 100vh;
-}
+
 .container {
     opacity: 0.96;
    height: 100%;
+   border-top: none;
+   border-bottom: none;
+   padding-bottom: none;
+   box-shadow: none;
 }
 @media screen and (max-width: 903px) {
     #photo img {
