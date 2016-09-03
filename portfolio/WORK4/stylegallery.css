@@ -41,16 +41,14 @@
     padding: 10px 20px 10px 20px;
 }
 
-html, body {
+ body {
 	height: 100%;
 }
 .container {
     opacity: 0.96;
-   
-    
-  
-
-  height: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
 }
 @media screen and (max-width: 903px) {
     #photo img {
