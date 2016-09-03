@@ -1,0 +1,72 @@
+p, h1, div {
+    margin:0;
+    padding:0;
+    font: normal 100% black;
+}
+header {
+          display: block;
+      }
+
+.communication {
+    margin-top: 34vh;
+    min-width: 250px;
+   
+        }
+
+.communication h4.modal-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+.communication h5 {
+     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+
+.communication span {
+   font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.buttonSkype {
+    margin-top: -18px;
+    padding-top: 0;
+    margin-right: -0;
+    padding-right: 0;
+    margin-left: 17px;
+}
+span.transparent::selection {
+   background: transparent;
+}
+span.transparent::-moz-selection {
+   background: transparent;
+}
+
+@media all and (max-width: 768px) and (min-width: 315px) {
+    #modalLetter .modal-dialog {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .textarea-form {
+    min-width: 265px;
+    }
+    
+}
+@media all and (max-width: 314px) {
+    .textarea-form {
+    min-width: 215px;
+    }
+}
