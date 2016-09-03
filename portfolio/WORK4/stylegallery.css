@@ -53,8 +53,8 @@ html, body {
    padding-bottom: 0;
    
 }
-.dva {
-	margin-top: 60px;
+.fiks {
+	height: 60px;
 }
 @media screen and (max-width: 903px) {
     #photo img {
