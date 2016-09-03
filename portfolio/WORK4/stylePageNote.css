@@ -46,7 +46,9 @@ h3 {
     font-size: 18px;
 }
 
-html, body {
+
+@media screen and (min-width: 975px) {
+	html, body {
 	height: 100%;
 	
 }
@@ -60,6 +62,7 @@ html, body {
 }
 .fiks {
 	height: 60px;
+}
 }
 @media screen and (max-width: 800px) {
     .table {
