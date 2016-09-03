@@ -45,6 +45,22 @@ h3 {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 18px;
 }
+
+html, body {
+	height: 100%;
+	
+}
+
+.container {
+    opacity: 0.96;
+   height: 100%;
+   padding-top: 0;
+   padding-bottom: 0;
+   
+}
+.fiks {
+	height: 60px;
+}
 @media screen and (max-width: 800px) {
     .table {
         padding-left: 60px;
