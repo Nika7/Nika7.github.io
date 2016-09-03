@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nika>Number3</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Marck+Script|Oranienbaum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  <link href="Jplayer/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Jplayer/lib/jquery.min.js"></script>
+<script type="text/javascript" src="Jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="Jplayer/dist/add-on/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			title:"Времена года Ноябрь",
+			mp3:"music/4aikovsky-VremenaGoda(November).mp3"
+		},
+		{
+			title:"Вальс цветов (Щелкунчик)",
+			mp3:"music/4aikovsky-ValsFlowers(Swelkun4ik).mp3"
+		},
+		{
+			title:"Ноктюрн",
+			mp3:"music/4aikovsky-Nokturn.mp3"
+		},
+		{
+			title:"Светлые грезы",
+			mp3:"music/4aikovsky-SweetDream.mp3"
+		},
+		{
+			title:"Лебединое озеро",
+			mp3:"music/4aikovsky-LebedinoeOzero.mp3"
+		},
+		{
+			title:"Времена года Масленица",
+			mp3:"music/4aikovsky-VremenaGoda(Maslenica).mp3"
+		},
+		{
+			title:"Романсы",
+			mp3:"music/4aikovsky-Romansi.mp3"
+		}
+		
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+ <script>
+$(document).ready(function() {
+	
+$('#gallery a').click(function(evt) {
+                evt.preventDefault();
+                var imgPath = $(this).attr('href');
+                var oldImage = $('#photo img');
+                var newImage = $('<img src="'+imgPath+'">');
+                newImage.hide();
+                $('#photo').prepend(newImage);
+                newImage.fadeIn(1000);
+                oldImage.fadeOut(1000,function(){
+                    $(this).remove();
+                    
+                }); //end fadeout
+                      });   // end click
+                $('#gallery a:first').click();
+	
+	
+}); // end ready
+</script>
+ 
+  
+</head>
+<body>
+   <nav>
+       <div class="container">
+       <div class="navigation">
+           <ul>
+               <li><a href="#biograf">Биография</a></li>
+               <li><a href="#music">Музыка</a></li>
+               <li><a href="#notes">Ноты</a></li>
+               <li><a href="#gallery">Галерея</a></li>
+               <li><a href="#home">Home</a></li>
+           </ul>
+           </div>
+           <div class="logo">
+               <h1> Петр Ильич </h1> <h1> &nbsp; &nbsp;	&nbsp;	&nbsp; 	&nbsp; ЧАЙКОВСКИЙ</h1>
+           </div>
+       </div></nav>
+       <section>
+           <div class="container">
+               <figure><img src="images/chai.png" alt="Чайковский"> </figure>
+               <div class="right2">
+                   <p>"Жизнь имеет только тогда прелесть, когда состоит из чередования радостей и горя, из борьбы добра со злом, из света и тени, словом из разнообразия в единстве."</p>
+                   <blockquote> "Красота в музыке состоит не в нагромождении эффектов и гармонических курьезов, а в простоте и естественности. "</blockquote>
+               </div>
+           </div>
+       </section>
+       <div class="info">
+         <div class="container">  <a name="biograf"></a>
+           <P>    Пётр Ильи́ч Чайко́вский (25 апреля [7 мая] 1840, Воткинск, Вятская губерния, Российская империя — 25 октября [6 ноября] 1893, Санкт-Петербург) — русский композитор, дирижёр, педагог, музыкально-общественный деятель, музыкальный журналист.
+</p><p>
+Считается одним из величайших композиторов в истории музыки[5]. Автор более 80 произведений, в том числе десяти опер и трёх балетов. Его концерты и другие произведения для фортепиано, семь симфоний (шесть пронумерованных и симфония «Манфред»), четыре сюиты, программная симфоническая музыка, балеты «Лебединое озеро», «Спящая красавица», «Щелкунчик», более 100 романсов представляют чрезвычайно ценный вклад в мировую музыкальную культуру.</P>
+  <h2>Биография</h2>
+  
+  <p>Родился Петр Ильич Чайковский 25 апреля (7 мая) 1840 года в городе Воткинск в многодетной семье инженера. В доме Чайковского часто звучала музыка. Его родители увлекались игрой на фортепиано, органе.
+
+<p>В биографии Чайковского важно отметить, что уже в возрасте пяти лет он уже умел играть на фортепиано, еще через три года превосходно играл по нотам. В 1849 году семья Чайковских переехала в Алапаевск, а затем в Санкт-Петербург. </p>
+
+<p>
+Первоначальное образование Чайковским было получено дома. Затем Петр два года занимался в пансионе, после чего – в училище правоведения Петербурга. Творчество Чайковского в этот период проявлялось в факультативных занятиях музыкой. Смерть матери в 1862 году сильно повлияла на ранимого ребенка. После окончания училища в 1859 году Петр стал служить в Департаменте юстиции.</p>
+
+<p>В свободное время часто посещал оперный театр, особенно сильное впечатление на него оказали постановки опер Моцарта и Глинки.</p>
+<p>
+Проявив склонность к сочинению музыки, Чайковский становится студентом консерватории Петербурга. Дальнейшие занятия в жизни Петра Ильича у великолепных преподавателей Н. Зарембы, А. Рубинштейна во многом помогли формированию музыкальной личности. После окончания консерватории композитор Чайковский был приглашен Николаем Рубинштейном (братом преподавателя) в Московскую консерваторию на должность профессора.</p>
+<p>
+Многие концерты Чайковского были написаны во время работы в консерватории. Опера «Ундина»(1869) не была поставлена, автор уничтожил ее. Лишь небольшая часть ее позже была представлена как балет Чайковского «Лебединое озеро».
+
+</p>
+  
+   <h2>   Личная жизнь</h2>
+
+<p>
+в 1877 году, чтобы избавиться от сплетен о своей нетрадиционной ориентации, Чайковский решил жениться на студентке консерватории Антонине Милюковой. Не испытывая к жене чувств, спустя несколько недель, он навсегда уехал от нее. С тех пор супруги жили раздельно, они так и не смогли развестись в силу различных обстоятельств.</p>
+<p>
+В 1878 году он покидает консерваторию и уезжает заграницу. В то же время Чайковский близко общается с Надеждой фон Мекк – богатой поклонницей его музыки. Она ведет с ним переписку, поддерживает его материально и морально.</p>
+<p>
+За двухлетнее время проживания в Италии, Швейцарии появляются новые великолепные произведения Чайковского – опера «Евгений Онегин», Четвертая симфония.</p>
+<p>
+В мае 1878 года Чайковский делает вклад в детскую музыкальную литературу – пишет сборник пьес для детей под названием «Детский альбом».</p>
+<p>
+После материальной помощи Надежды фон Мекк, композитор много путешествует. С 1881 по 1888 года им было написано множество произведений. В частности, вальсы, симфонии, увертюры, сюиты.</p>
+<p>
+Наконец в биографии Петра Чайковского установился спокойный творческий период, тогда же автор сам смог дирижировать на концертах.</p>
+<p>
+Умер Чайковский в Петербурге 25 октября (6 ноября) 1893 от холеры. Его похоронили в Александро-Невской лавре в Санкт-Петербурге.
+
+</p>
+       </div>
+     </div>
+      <div class="playlist">
+         <div class="container"> <a name="music"></a>
+          <div class="min">
+              <img alt="pica" src="images/114.jpg">
+          </div>
+           
+           <h4> Чайковский. Избранные композиции.</h4>
+          
+   <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div class="jp-gui jp-interface">
+			<div class="jp-controls">
+				<button class="jp-previous" role="button" tabindex="0">previous</button>
+				<button class="jp-play" role="button" tabindex="0">play</button>
+				<button class="jp-next" role="button" tabindex="0">next</button>
+				<button class="jp-stop" role="button" tabindex="0">stop</button>
+			</div>
+			<div class="jp-progress">
+				<div class="jp-seek-bar">
+					<div class="jp-play-bar"></div>
+				</div>
+			</div>
+			<div class="jp-volume-controls">
+				<button class="jp-mute" role="button" tabindex="0">mute</button>
+				<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+				<div class="jp-volume-bar">
+					<div class="jp-volume-bar-value"></div>
+				</div>
+			</div>
+			<div class="jp-time-holder">
+				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+			</div>
+			<div class="jp-toggles">
+				<button class="jp-repeat" role="button" tabindex="0">repeat</button>
+				<button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+			</div>
+		</div>
+		<div class="jp-playlist">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+</div>
+   
+  </div>
+ </div>
+
+        
+     <div class="notes">
+         <div class="container"> <a name="notes"></a>
+             <h4> Чайковский. Ноты. </h4>
+              <table>
+                  <tr>
+                     <td><p>Времена года. Партия для фортепиано.</p></td>
+                     <td><p>Тип: PDF </p></td>
+                     <td class="rightTD"><a download href="notes/timeYear.pdf">Скачать</a></td>
+                 </tr>
+                 <tr>
+                     <td><p>Лебединое озеро. Тема для скрипки.</p></td>
+                     <td><p>Тип: PDF</p></td>
+                     <td class="rightTD"><a download href="notes/chaikovskiy-lebozerotema-violin.zip">Скачать</a></td>
+                 </tr>
+                 <tr>
+                     <td><p>Размышления. Тема для скрипки.</p></td>
+                     <td><p>Тип: PDF</p></td>
+                     <td class="rightTD"><a download href="notes/chaikmeditationRazm.zip">Скачать</a> </td>
+                 </tr>
+                 <tr>
+                     <td><p>Сентиментальный вальс. Партия для скрипки.</p></td>
+                     <td><p>Тип: TIF</p></td>
+                     <td class="rightTD"><a download href="notes/sk13SentimentalniWALS.zip">Скачать</a></td>
+                 </tr>
+                 <tr>
+                     <td><p>Симфония №5. Тема для фортепиано.</p></td>
+                     <td><p>Тип: PDF</p></td>
+                     <td class="rightTD"><a download href="notes/tem_Simf5.pdf">Скачать</a></td>
+                 </tr>                
+                 <tr>
+                     <td><p>Щелкунчик. Сюита для фортепиано.</p></td>
+                     <td><p>Тип: PDF</p></td>
+                     <td class="rightTD"><a download href="notes/Swhelkun4suita.pdf">Скачать</a> </td>
+                 </tr>
+             </table>
+         </div>
+     </div>
+     <div class="galery">
+       <div class="container"> <a name="gallery"></a>
+      
+       <div id="gallery"> 
+       <a href="images/gallery/58992669.png"><img src="images/gallery/photomin1.jpg" alt="Чайковский."></a> 
+       <a href="images/gallery/b_25a658ee90fa95c.gif"><img src="images/gallery/photomin2.gif" alt="Чайковский."></a>
+       <a href="images/gallery/chaik_4.jpg"><img src="images/gallery/photomin3.jpg"  alt="Чайковский."></a>
+       <a href="images/gallery/Chaikovskii.jpg"><img src="images/gallery/photomin4.jpg" alt="Чайковский, молодость."></a>
+       <a href="images/gallery/chaikovskii1.jpg"><img src="images/gallery/photomin5.jpg" alt="Чайковский. Семья."></a>
+       <a href="images/gallery/i_028.jpg"><img src="images/gallery/photomin6.jpg" alt="Чайковский, зрелость."></a>
+       <a href="images/gallery/liektsiia-kontsiert-v-ghostiakh-u-dietskogho-al-boma-chaikovskogho_1.jpeg"><img src="images/gallery/photomin7.jpg"  alt="Чайковский."></a>
+       <a href="images/gallery/Petr-Ilich-CHajkovskij.jpg"><img src="images/gallery/photomin8.jpg"  alt="Чайковский и Давыдов."></a>
+       <a href="images/gallery/photo_1.jpg"><img src="images/gallery/photomin9.jpg"  alt="Чайковский. Детство."></a>
+       <a href="images/gallery/s7777_1318590012_2.jpg"><img src="images/gallery/photomin10.jpg"  alt="Чайковский. Молодость."></a>
+       <a href="images/gallery/Tchaikovsky_in_1860_as_Ministry_of_Justice_employee.gif"><img src="images/gallery/photomin11.gif"  alt="Чайковский. Молодость."></a>
+       <a href="images/gallery/Tchaikovskyz.jpg"><img src="images/gallery/photomin12.jpg"  alt="Чайковский.Отрочество."></a>
+       
+       
+       
+       </div>
+        <h4> Фотогалерея.</h4>
+			<div id="photo"></div>
+       
+       
+       
+       
+       </div>
+     </div>
+     <footer> 
+         <div class="container"> <a name="home"></a>
+          
+              <h2> Петр Ильич Чайковский</h2>
+          
+           
+            <div class="copyright"><p>Copyright ©2015.Ника Бушуева. <br>
+             Все права защищены.</p></div>
+             
+           
+            <a href="../../index.html">Обратная связь</a>
+            
+             
+         </div>
+     </footer>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+     <script type="text/javascript"></script>
+</body>
+</html> 
