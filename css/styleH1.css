@@ -1,0 +1,272 @@
+p, h1, h2, h4, h3, img, div {
+    margin:0;
+    padding:0;
+    font: normal 100% black;
+}
+
+.portfolio {
+    min-width: 250px;
+    
+}
+.bodyport {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 520px;
+    
+}
+.titles  {
+   padding-top: 43px;
+    padding-bottom: 43px;
+    text-align: center;
+    
+}
+
+.titles>h2 {
+  font-family: 'Fira Sans', sans-serif;
+    font-size: 29px;
+    padding-bottom: 7px;
+    
+    text-transform: uppercase;
+    
+    color: #4e4e4e;
+    font-weight: 500;
+    }
+
+.titles p {
+     font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.left-top {
+     padding-top: 43px;
+}
+.left-top .btn {
+    padding: 4px 8px 4px 8px;
+}
+
+
+.thumbnail {
+    border: none;
+    text-align: center;
+   margin-bottom: 31px;
+}
+.thumbnail .titl {
+   font-family: 'Fira Sans', sans-serif;
+    color: #4e4e4e;
+    font-weight: 500;
+    font-size: 15px; 
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+.titl:hover {
+    text-decoration: none;
+    cursor: text;
+}
+
+.thumbnail img{
+    border: 1px solid rgba(172, 172, 172, 0.37);
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+.thumbnail h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.thumbnail .btn {
+    padding: 2px 4px 2px 4px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    border-radius: 2px;
+    
+        
+}
+.noLink {
+  pointer-events: none;
+}
+.thumbnail a {
+     font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+html:root .thumbnail>.caption>.captionGrey {
+        min-height: 32px;
+        height:auto !important;
+    }
+      
+.thumbnail>.caption>.captionGrey {
+    min-height: 30px;
+    /** IE6 не понимает important, 
+      поэтом проигнорирует это свойство */
+  height:auto !important;
+  /** Только для IE. Другие браузеры проигнорируют 
+      это свойство из за height: auto !important */
+  height:31px;
+}
+.miniscreenp {
+    display: none;
+}       
+
+ 
+
+
+
+@media screen and (max-width: 992px) {
+      .titles  {
+        padding: 43px 0 43px 0;
+    }
+    .thumbnail>.caption>.captionGrey {
+    min-height: 31px;
+        /** IE6 не понимает important, 
+      поэтом проигнорирует это свойство */
+  height:auto !important;
+  /** Только для IE. Другие браузеры проигнорируют 
+      это свойство из за height: auto !important */
+  height:31px;
+}
+    html:root .thumbnail>.caption>.captionGrey {
+        min-height: 32px;
+        height:auto !important;
+    }
+       
+       }
+
+@media screen and (max-width: 768px)  {
+    .titles  {
+   padding: 43px 0 43px 0;
+   text-align: center;
+    
+    }
+    
+    .navig {
+        padding-right: 0;
+    }
+    html:root .thumbnail>.caption>.captionGrey {
+        min-height: 32px;
+        height:auto !important;
+    }
+    .thumbnail>.caption>.captionGrey {
+         
+    min-height: 31px;
+       
+        /** IE6 не понимает important, 
+      поэтом проигнорирует это свойство */
+  height:auto !important;
+  /** Только для IE. Другие браузеры проигнорируют 
+      это свойство из за height: auto !important */
+  height:31px;
+}
+   
+      
+    
+       
+
+.titles>h2 {
+  font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-weight: 500;
+    }
+
+.titles p {
+     font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 1.3;
+}
+}
+.miniscreenp h5 {
+     font-family: 'Fira Sans', sans-serif;
+    font-size: 21px;
+    padding-bottom: 7px;
+    
+    text-transform: uppercase;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: 500;
+    padding-top:  15px;
+}
+
+@media screen and (max-width: 550px) and (min-width: 346px) {
+     .screenp {
+        display: none;
+    }
+    .miniscreenp {
+    display: block;
+}
+    .portfolio {
+    min-width: 220px;
+    
+}
+
+.btn-group>a.btn, .btn-group>button.btn {
+        border-radius: 0px; 
+    }
+}
+@media screen and (max-width: 345px) {
+    .screenp {
+        display: none;
+    }
+    .portfolio {
+    min-width: 220px;
+    
+}
+    
+    .miniscreenp {
+    display: block;
+}
+    .miniscreenp .captionGrey {
+        display: none;
+    }
+    .left, .right{
+        float: none;
+    }
+    .thumbnail .btn {
+    padding: 5px 10px 5px 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-radius: 2px;
+        width: 135px;  
+}
+    .miniscreenp h5  {
+        font-size: 17px;
+    }
+    .thumbnail .titl {
+        display: block;
+        padding-top: 3px;
+        font-size: 12px;
+    }
+    .thumbnail .btn, .thumbnail .titl {
+         
+    }
+    .thumbnail .caption {
+        padding: 0;
+    }
+    .thumbnail {
+        margin-bottom: 15px;
+        border: 1px dotted #d9d9d9;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btn-group>a.btn, .btn-group>button.btn {
+        border-radius: 0px; 
+    }
+}
