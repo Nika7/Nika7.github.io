@@ -210,6 +210,9 @@ html:root .thumbnail>.caption>.captionGrey {
     .miniscreenp {
     display: block;
 }
+.bodyport {
+    min-width: 300px;
+}
  
 
 .btn-group>a.btn, .btn-group>button.btn {
@@ -263,4 +266,8 @@ html:root .thumbnail>.caption>.captionGrey {
     .btn-group>a.btn, .btn-group>button.btn {
         border-radius: 0px; 
     }
+    .bodyport {
+    min-width: 200px;
+}
+ 
 }
