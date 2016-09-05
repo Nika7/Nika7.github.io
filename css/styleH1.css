@@ -207,7 +207,10 @@ html:root .thumbnail>.caption>.captionGrey {
     display: block;
 }
 
- 
+ .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 .btn-group>a.btn, .btn-group>button.btn {
         border-radius: 0px; 
