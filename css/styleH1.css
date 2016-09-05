@@ -4,10 +4,6 @@ p, h1, h2, h4, h3, img, div, .portfolio,  .bodyport, .miniscreenp, .screenp{
     font: normal 100% black;
 }
 
-.portfolio {
-    min-width: 250px;
-    
-}
 .bodyport {
     max-width: 1200px;
     margin-left: auto;
@@ -210,9 +206,7 @@ html:root .thumbnail>.caption>.captionGrey {
     .miniscreenp {
     display: block;
 }
-.bodyport {
-    min-width: 300px;
-}
+
  
 
 .btn-group>a.btn, .btn-group>button.btn {
@@ -263,11 +257,13 @@ html:root .thumbnail>.caption>.captionGrey {
         padding-left: 0;
         padding-right: 0;
     }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
     .btn-group>a.btn, .btn-group>button.btn {
         border-radius: 0px; 
     }
-    .bodyport {
-    min-width: 200px;
-}
+   
  
 }
