@@ -3259,7 +3259,7 @@ p, h1, div {
 .miniscreen {
     display: none;
 }
-@media screen and (max-width: 360px) and (min-width: 160px) {
+@media screen and (max-width: 360px) {
     .center {
         display: none;
     }
