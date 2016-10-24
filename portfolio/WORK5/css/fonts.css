@@ -1,0 +1,24 @@
+@font-face {
+    font-family: HelveticaNCR;
+    src: url(../fonts/HelveticaNeueCyr-Roman.otf);
+}
+@font-face {
+    font-family: HelveticaNCT;
+    src: url(../fonts/HelveticaNeueCyr-Thin.otf);
+}
+@font-face {
+    font-family: HelveticaNCL;
+    src: url(../fonts/HelveticaNeueCyr-Light.otf);
+}
+@font-face {
+    font-family: HelveticaNCB;
+    src: url(../fonts/HelveticaNeueCyr-Bold.otf);
+}
+@font-face {
+    font-family: HelveticaNCM;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+@font-face {
+    font-family: HelveticaNCUL;
+    src: url(../fonts/HelveticaNeueCyr-UltraLight.otf);
+}
