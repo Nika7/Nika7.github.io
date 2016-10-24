@@ -831,7 +831,7 @@ footer {
     border-radius: 0;
     margin-top: 10px;
 }
-.redselect:hover, redmore:hover {
+.redselect:hover, .redmore:hover {
     color: #dd4c57;
     background-color: #ffffff;
 }
