@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Магазин</title>
+
+    <!-- Bootstrap -->
+    <link href="libs/bootstrap.css" rel="stylesheet">
+    <link href="libs/font-awesome.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/gallery.js"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+            galleryfunction();
+          
+      });//end ready
+      </script>
+      
+      
+      <link rel="stylesheet" href="libs/sliderJS/jslider.css" type="text/css">
+	<link rel="stylesheet" href="libs/sliderJS/jslider.round.css" type="text/css">
+	
+  <!-- end -->
+
+	<script type="text/javascript" src="libs/sliderJS/jquery-1.7.1.js"></script>
+	
+	<!-- bin/jquery.slider.min.js -->
+	<script type="text/javascript" src="libs/sliderJS/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="libs/sliderJS/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="libs/sliderJS/tmpl.js"></script>
+	<script type="text/javascript" src="libs/sliderJS/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="libs/sliderJS/draggable-0.1.js"></script>
+	<script type="text/javascript" src="libs/sliderJS/jquery.slider.js"></script>
+      
+      
+      
+      
+      
+      
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <header>
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-6 col-md-6 col-lg-6"></div>
+           <div class="col-sm-6 col-md-6 col-lg-6">
+               <ul class="topmenu pull-right">
+                    <li><a href="about.html">О компании</a></li>
+                   <li><a href="product.html">Витрина</a></li>
+                   <li><a href="#">Услуги</a></li>
+                   <li><a href="searching.html">Акции и предложения</a></li>
+                   <li><a href="contacts.html">Контакты</a></li>
+               </ul>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-1">
+               <img src="img/logo.png" alt="logo">
+           </div>
+           <div class="col-lg-3">
+              <h3 class="number">
+               +7 (8352) 27–07–87
+           </h3>
+           </div>
+           <div class="col-lg-4 place">
+               <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                  Пн-пт: 8.00-20.00 Сб-вс: 9.00-16.00
+               <br>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+                 Ленинского Комсомола, 37а
+               </p>
+           </div>
+           <div class="col-lg-4">
+              <div class="row  searchingdiv pull-right">
+                 <div class="col-lg-2"></div>
+                  <div class="col-lg-5">
+                      <div class="searching">
+                      <input type="submit" name="search" value="">
+                      <input type="search"   value="" placeholder="Что ищем?">
+               </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <a href="#" class="btn basket">
+                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                   Корзина пуста
+                   </a>
+                  </div>
+              </div>
+               
+             
+           </div>
+       </div>
+       <div class="row">
+           <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Автоаксессуары</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Автохолодильники</a></li>
+                    <li><a href="#">Защита и внешний тюнинг</a></li>
+                    <li><a href="#">Изделия из кожи</a></li>
+                    <li><a href="#">Инвентарь для ухода</a></li>
+                    <li><a href="#">Необходимый набор автомобилиста</a></li>
+                    <li><a href="#">Обустройство салона</a></li>
+                    <li><a href="#">Щетки стеклоочистителя</a></li>
+                </ul>
+                
+                
+            </li>
+            <li class="dropdown"><a href="#">АКБ</a></li>
+            <li class="dropdown"><a href="#">Автохимия</a></li>
+            <li class="dropdown"><a href="#">Запчасти</a></li>
+            <li class="dropdown"><a href="#">Набор инструментов</a></li>
+            <li class="dropdown"><a href="#">Оборудование для сервисов</a></li>
+            <li class="dropdown"><a href="#">Масло</a></li>
+            <li class="dropdown"><a href="#">Смазки</a></li>
+            <li class="dropdown"><a href="#">Электрика</a></li>
+            <li class="dropdown"><a href="#">Автолампы</a></li>
+           </ul>
+       </div>
+      
+    </div>
+    </header>
+
+    <section class="searchingpage">
+        <div class="container">
+            <div class="row">
+                <h1>Аккумуляторы Varta</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="leftsidebar">
+                       <form action="">
+                         <div class="marka">
+                          <h4>Бренд</h4>
+                          <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a1" id="check1"><label for="check1">AKOM</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a2" id="check2"><label for="check2">DELKOR</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a3" id="check3"><label for="check3">GigaWatt</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a4" id="check4"><label for="check4">Moratti</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a5" id="check5"><label for="check5">MULTU</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a6" id="check6"><label for="check6">Solite</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a7" id="check7"><label for="check7">Sznjder</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a8" id="check8"><label for="check8">TOPLA</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a9" id="chec9k"><label for="check9">TORNADO</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a10" id="check10"><label for="check10">TUNGSTONE</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a11" id="check11"><label for="check11">Tyumen Battery</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a12" id="check12" checked><label for="check12">Varta</label></div>
+                           </div>
+
+                       
+                       <div class="parametr1">
+                           <h4>Емкость</h4>
+                        
+                           <div class="layout-slider" style="width: 100%">
+      <span style="display: inline-block; width: 220px; padding: 0 5px;"><input id="Slider1" type="slider" name="price" value="10;250" /></span>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      jQuery("#Slider1").slider({ from: 10, to: 255, step: 5, smooth: true, round: 0, dimension: "&nbsp;", skin: "round" });
+    </script>
+                       </div>
+                       
+                       <div class="parametr1">
+                          <h4>Полярность</h4>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a13" id="check13"><label for="check13">Прямая</label></div>
+                           <div class="checkbox">
+                           <p><input type="checkbox" name="option1" value="a14" id="check14" checked><label for="check14">Обратная</label></div>
+                       </div>
+                       
+                       
+                       
+                       
+                        <div class="parametr1">
+                           <h4>Длина</h4>
+                        
+                           <div class="layout-slider" style="width: 100%">
+      <span style="display: inline-block; width: 220px; padding: 0 5px;"><input id="Slider2" type="slider" name="price" value="10;250" /></span>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      jQuery("#Slider2").slider({ from: 10, to: 255, step: 5, smooth: true, round: 0, dimension: "&nbsp;", skin: "round" });
+    </script>
+                       </div>
+                        <div class="parametr1">
+                           <h4>Ширина</h4>
+                        
+                           <div class="layout-slider" style="width: 100%">
+      <span style="display: inline-block; width: 220px; padding: 0 5px;"><input id="Slider3" type="slider" name="price" value="10;250" /></span>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      jQuery("#Slider3").slider({ from: 10, to: 255, step: 5, smooth: true, round: 0, dimension: "&nbsp;", skin: "round" });
+    </script>
+                       </div>
+                        <div class="parametr1">
+                           <h4>Высота</h4>
+                        
+                           <div class="layout-slider" style="width: 100%">
+      <span style="display: inline-block; width: 190px; padding: 0 5px; margin-left: 30px"><input id="Slider4" type="slider" name="price" value="10;250" /></span>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      jQuery("#Slider4").slider({ from: 25, to: 255, step: 5, smooth: true, round: 0, dimension: "&nbsp;", skin: "round" });
+    </script>
+                       </div>
+                       <a href="#" class="btn redselect">
+                           Подобрать
+                       </a>
+                       </form>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-9 contentSear">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                    </div>
+                      <div class="row">
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="vitrinaTovar search">
+                       <img src="img/fotovitrinTovar.jpg" alt="foto">
+                       
+                       <a href="#">Аккумулятор Varta Blue 
+Dynamic E24 70 А/ч</a>
+                       <p>Емкость: 70 (А/ч)</p>
+                       <p>Полярность: Прямая </p>
+                       <p>Пусковой ток: 630 (А)</p>
+                       <h5>5800 <span> р.</span></h5>
+                       <a href="#" class="basketTov">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить
+                            </a>
+                   </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <a href="#" class="btn redmore">
+                            Показать еще
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    
+    <footer>
+        <div class="container">
+        <div class="col-lg-5">
+            <div class="row logotop">
+               <div class="col-lg-2">
+                   <img src="img/logo.png" class="logofot" alt="logo">
+               </div>
+               <div class="col-lg-10">
+                   <p class="blockadress">
+                  Энергия авто — интернет-магазин товаров  
+                </p>
+                <p class="blockadress">
+                    для авто и мото техники в Чебоксарах
+                </p>
+               </div>
+            </div>
+            <div class="row bottomadress">
+                <p>
+                Ленинского Комсомола, 37а
+            </p>
+            <h4>
+                +7 (8352) 270787
+            </h4>
+            </div>
+            
+        </div>
+        <div class="col-lg-7">
+            <div class="row">
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot"> О компании
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Реквизиты</a></li>
+                        <li><a href="#">О компании </a></li>
+                        <li><a href="#">Наша корпоративная жизнь</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot"> Помощь
+                        <li><a href="#">Как сделать заказ</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot">Юридическим лицам
+                        <li><a href="#">Покупка товаров(b2b)</a></li>
+                        <li><a href="#">Подарочные сертификаты</a></li>
+                        <li><a href="#">Loyalica</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="libs/bootstrap.js"></script>
+  </body>
+</html>
