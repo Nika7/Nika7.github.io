@@ -1,0 +1,960 @@
+
+header {
+    padding-top: 15px;
+    border-color: #ffffff;
+    color: #444444;
+    font-size: 13px;
+    font-family: HelveticaNCT, sans-serif;
+}
+ul.topmenu li {
+    display: inline;
+    
+}
+.topmenu li a {
+   font-family: HelveticaNCR, sans-serif; 
+   color: #444444;
+   font-size: 13px;
+   padding-right: 8px;
+   padding-left: 8px;
+}
+img {
+    margin-top: -23px;
+}
+.number {
+    font-size: 30px;
+    margin-left: -10px; 
+    margin-top: 0;
+}
+.place {
+    font-family: HelveticaNCR, sans-serif; 
+    color: #737373;
+    margin-top: 4px;
+     margin-left: -18px;
+}
+.place i {
+    color: #99b1c6;
+    font-size: 16px;
+   
+}
+.fa-map-marker {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+i {
+    margin-right: 4px;
+}
+
+
+.searching {
+    font-family: HelveticaNCT, sans-serif;
+    
+    font-size: 13px;
+    width: 140px; /* Ширина поля с кнопкой */
+    border: 1px solid #737373; /* Параметры рамки */
+    background-color: #f0f0f0;
+    min-height: 25px; /* Минимальная высота */
+    max-height: 25px;
+   
+   }
+ ::-webkit-input-placeholder {color:#737373;}
+::-moz-placeholder          {color:#737373;}/* Firefox 19+ */
+:-moz-placeholder           {color:#737373;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#737373;}
+ 
+
+   input[type="search"] {
+       
+   
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 100px; /* Ширина поля */
+    margin-top: -8px;
+    max-height: 17px;
+       line-height: 1;
+    vertical-align: middle; /* Выравнивание по середине */
+    text-align: left;
+       background-color: #f0f0f0;
+       
+           
+   }
+   input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+      margin-left: 9px;
+    border: none; /* Убираем рамку */
+    background: url(../img/search.png) no-repeat 0% 50%; /* Параметры фона */
+       background-size: 17px 17px;
+    
+   }
+.basket {
+    padding: 5px 15px 5px 9px;
+    color: #ffffff;
+    background-color: #565656;
+    line-height: 1;
+    border-radius: 0;
+    margin-right: 0px;
+}
+.basket:hover {
+    color: #ffffff;
+}
+.searchingdiv {
+    margin-top: 15px;
+}
+.navbar-nav {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+ .navbar-nav > li > a {
+    border-radius: 0;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 11px;
+    color: #020202;
+    font-family: HelveticaNCL, sans-serif;
+}
+.dropdown-menu {
+    
+    border-top: 0;
+    height: 392px;
+    background-color: #ededed;
+    padding-top: 20px;
+    width: 1170px;
+    margin-left: -1px;
+}
+.dropdown-menu > li > a{
+    font-family: HelveticaNCT, sans-serif;
+    color: #222222;
+    font-size: 16px;
+    line-height: 2.4;
+}
+.dropdown-menu > li > a:hover {
+    color: #507299;
+    text-decoration: underline;
+    background-color: #ededed;
+}
+@media screen and (min-width:1170px){
+    .dropdown-menu {
+   -webkit-padding-left: calc((1170px-100vw)/2); !important
+            
+    }
+}
+
+section.slider {
+    padding-left: 1px;
+}
+/*---------------------------------*/
+
+
+/* footer */
+footer {
+    clear: both;
+    height: 240px;
+    background-color: #e4e4e4;
+    border-top: 1px solid #737373;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 13px;
+    color: #444444;
+}
+.logotop {
+    margin-top: 50px;
+}
+.bottomadress {
+    margin-left: 0px;
+}
+.blockadress {
+    margin-top: -7px;
+    margin-left: 6px;
+    line-height: 1.7;
+}
+.bottomadress {
+    margin-top: 15px;
+}
+.bottomadress h4{
+    color: #222222;
+    font-size: 21px;
+}
+.menufoot{
+    list-style-type: none;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+.menufoot a{
+    color:  #444444;
+    font-size: 13px;
+    color: #444444;
+    padding: 7px 2px 7px 0px;
+}
+.marginfoot {
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+
+
+
+
+/* section about */
+.about{
+    background-color: #f4f4f4;
+    padding-left: 20px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #222222;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 21px;
+}
+.about h2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.about p{
+     padding: 10px 0 15px 20px; 
+     
+}
+/* -------------------------------------------*/
+
+
+
+/* section contacts */
+.contact {
+    background-color: #f4f4f4;
+    padding-left: 20px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #5c5c5c;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 21px;
+}
+.contact h4 {
+    font-size: 24px;
+    color: #222222;
+    font-family: HelveticaNCR, sans-serif; 
+}
+.contact h3 {
+    color: #222222;
+    font-size: 30px;
+    padding-left: 15px;
+    margin-left: 0;
+}
+
+
+/*----------------section brand -----*/
+.blocktovarmesjaca {
+    border: 2px solid #dd4c57;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 249px;
+}
+.blocktovarmesjaca h3 {
+    font-family: HelveticaNCB, sans-serif;
+    color: #fefefe;
+    line-height: 1;
+    font-size: 26px;
+    padding: 7px 10px 7px 10px;
+    width: 100%;
+    background-color: #dd4c57;
+    margin: 0;
+}
+.blocktovarmesjaca img {
+    margin: 20px 1px 10px 10px; 
+}
+.containertovar {
+    margin-left: 0;
+    text-align: left;
+    font-size: 16px;
+    color: #737373;
+    font-family: HelveticaNCL, sans-serif;
+    margin-top: 5px;
+}
+.containertovar a{
+    font-family: HelveticaNCR, sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-decoration: none;
+}
+.containertovar a:hover {
+    text-decoration: none;
+}
+.containertovar h4 {
+    font-size: 33px;
+    color: #dd4c57;
+    font-family: HelveticaNCB, sans-serif;
+    line-height: 1;
+    padding-top: 0;
+    margin-top: 0;
+}
+.containertovar h4 span {
+    font-size: 30px;
+    font-family: HelveticaNCM, sans-serif;
+    letter-spacing: -4px;
+}
+.containertovar .basketred {
+    line-height: 1;
+    padding: 4px 8px 4px 8px;
+    font-size: 18px;
+    font-family: HelveticaNCL, sans-serif;
+    color: #ffffff;
+    background-color: #dd4c57;
+    border-radius: 0;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+/*-----podbor forma glavnaja str --------*/
+.blockformakum {
+    border: 2px solid #99b1c6;
+    min-height: 249px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/*----------------- vitrina index -----------*/
+.vitrinaindex {
+    background-color: #f0f0f0;
+    padding-bottom: 20px;
+    
+}
+.vitrinaindex h4{
+    font-size: 21px;
+    font-family: HelveticaNCL, sans-serif;
+    color: #222222;
+    line-height:  1.5;
+}
+.rowtovar {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+    
+.coltovar {
+    padding: 0;
+}
+.blocktovar {
+    background-color: #ffffff;
+    height: 285px;
+    width: 290px;
+    border: 1px solid #99b1c6;
+    text-align: center;
+}
+.blocktovar img {
+    margin-top: 0;
+}
+.namebye {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.namebye a{
+    color: #507299;
+    font-size: 18px;
+    font-family: HelveticaNCL, sans-serif;
+    padding-left: 0;
+}
+.namebye h6{
+    font-family: HelveticaNCM, sans-serif;
+    font-size: 26px;
+    color: #222222;
+    margin-left: -15px;
+}
+.namebye h6 span{
+    font-family: HelveticaNCR, sans-serif;
+    margin-left: -3px;
+}
+.namebye a.basketred {
+    color: #ffffff;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 18px;
+    background-color: #dd4c57;
+    line-height: 1;
+    padding: 4px 8px 4px 8px;
+    border-radius: 0;
+    margin-top: 14px;
+    margin-left: 0;
+}
+.rowtovarbottom .blocktovar {
+    border-top: none;
+    
+}
+
+
+/* section otzivi-------------------------------------------------*/
+.otzivi {
+    min-height: 270px;
+    background-color: #ffffff;
+}
+.otzivi h4, .brendi h4{
+    margin-left: 15px;   
+     color: #222222;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+}
+.blockotziv {
+    padding: 18px 30px 18px 30px;
+    border: 1px solid #99b1c6; 
+    font-family: HelveticaNCR, sans-serif;
+}
+.blockotziv img{
+    margin-top: 0;
+}
+.blockotziv h5 {
+    font-size: 21px;
+    color: #161616;
+    margin-left: -25px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.blockotziv h6{
+    color: #737373;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid #99b1c6;
+     margin-left: -10px;
+    margin-right: 15px;
+}
+.blockotziv p{
+    font-size: 16px;
+    color: #444444;
+    font-family: HelveticaNCL, sans-serif;
+    margin-bottom: 0;
+    
+}
+
+/*------Section BRENDI bottom index -------------*/
+.brendi {
+    background-color: #f0f0f0;
+    color: #222222;
+    font-size: 13px;
+    font-family: HelveticaNCL, sans-serif;
+}
+.brendi img {
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+.brendi h6{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.brendi p{
+    margin-top: 15px;
+}
+
+
+
+/*----------------- product ------------*/
+
+
+
+#gallery {
+	
+	/*width: 600px;*/
+}
+#gallery img {
+	display: inline-block;
+	margin: 10px 5px 10px 5px;
+	border: 1px solid #9bb3c7;
+    float: left;
+    height: 112px;
+    width: 128px;
+}
+#photo {
+	margin-left: 10px;
+	position: relative;
+    height: 320px;
+    width: 400px;
+    border: 2px solid #9bb3c7;
+    text-align: center;
+    vertical-align: middle;
+}
+#photo img {
+	position: absolute;
+    margin-top: 11px;
+    margin-left: -170px;
+}
+
+
+
+.tovarproduct {
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    font-family: HelveticaNCL, sans-serif;
+}
+.tovarproduct h1{
+    color: #222222;
+    font-size: 30px;
+    font-family: HelveticaNCL, sans-serif;
+    padding-left: 10px;
+}
+.tovarproduct h6{
+    text-align: right;
+    font-size: 16px;
+    color: #9bb3c7; 
+    line-height: 4;
+}
+.tovarproduct  h6 span{
+    color: #dd4c57;
+}
+.tovarproduct .info p{
+    font-size: 16px;
+    color: #737373;
+    font-family: HelveticaNCR, sans-serif;
+    line-height: 1;
+}
+.tovarproduct .info h5 {
+    color: #dd4c57;
+    font-size: 18px;
+    line-height: 5;
+}
+.tovarproduct .info  h3{
+    font-size: 33px;
+    color: #222222;
+    margin-top: -25px;
+}
+.tovarproduct .info h4{
+    font-size:  24px;
+    color: #9bb3c7;
+    text-decoration: line-through;
+    margin-bottom: 28px;
+    line-height: 1;
+    margin-top: -5px;
+}
+.tovarproduct .info .basketTov {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #dd4c57;
+    
+    
+}
+.tovarproduct .info p > span{
+    font-family: HelveticaNCR, sans-serif;
+    font-size: 21px;
+    color: #507299;
+    line-height: 4;
+    margin-top: 30px;
+}
+.tovarproduct .info p .garant {
+    font-size: 16px;
+    color: #737373;
+}
+
+.dostavkainfo {
+    border: 2px solid #9bb3c7;
+    padding: 15px 30px 15px 30px;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+.dostavkainfo h4{
+    font-family: HelveticaNCM, sans-serif;
+    font-size: 18px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.dostavkainfo span {
+    color: #dd4c57;
+    font-size: 26px;
+}
+
+.dostavkainfo .mesto {
+    color: #222222;
+    font-size: 17px;
+    font-family: HelveticaNCM, sans-serif;
+    margin-bottom: 0;
+}
+
+.dostavkainfo  .bottomline {
+    border-bottom:  1px solid #9bb3c7;
+    padding-bottom: 7px;
+}
+.social ul > li {
+    display: inline;
+}
+.social {
+    text-align: center;
+    padding: 12px 30px 12px 30px;
+}
+.social ul{
+    padding-left: 0;
+}
+.social a{
+    color: #9bb3c7;
+    font-size: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.social a:hover{
+    color: #507299;
+} 
+/*-------------------------------------------------------------*/
+.otzivotovare, .blockformotz {
+    padding-top: 30px;
+    padding-bottom: 11px;
+    color: #444444;
+    background-color: #ffffff;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 18px;
+}
+.tab-content {
+    min-height: 320px;
+}
+.backtabs {
+    padding: 10px 27px;
+    background-color: #507299;
+    color: #ffffff;
+    border-radius: 0;
+}
+ .nav > li > a.backtabs {
+    padding: 10px 27px;
+     border-radius: 0;
+}
+.nav > li > a.backtabs:hover, .nav > li > a.backtabs:focus {
+    background: #ffffff;
+    color: #507299;
+    border-color: #ffffff;
+    border-bottom-color: #dddddd;
+}
+.nav > li.active > a.backtabs, .nav > li.active > a.backtabs{
+    border-color: #ffffff;
+    border-bottom-color: #dddddd;
+}
+.nav > li.active > a.backtabs:hover, .nav > li.active > a.backtabs:focus {
+    border-color: none ;
+    color: #444444;
+    border-bottom-color: #dddddd;
+}
+.blockcomment {
+    padding: 24px 24px;
+    padding-left: 0;
+}
+
+.blockcomment p.names {
+    font-family: HelveticaNCR, sans-serif;
+    color: #44444;
+}
+
+.blockcomment p.dates {
+    color: #979797;
+    font-size: 16px;
+}
+
+
+
+.blockcomment .otzivone {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.blockformotz label {
+    display: block;
+}
+
+.blockformotz #comment {
+    border-color: #f0f0f0;
+    resize: none;
+}
+.blockformotz input {
+    border: 1px solid #f0f0f0;
+    box-shadow: none;
+}
+
+
+/* ------------------section similar latest-----------*/
+
+
+.similar, .latest {
+     height: 490px;
+     font-family: HelveticaNCL, sans-serif;
+     font-size: 21px;
+     color: #222222;
+    
+    
+}
+.similar  h3, .latest  h3{
+    margin-bottom: 25px;
+    
+}
+.similar {
+    background-color: #f0f0f0;
+}
+
+.latest {
+    clear: both;
+    background-color: #ffffff;
+}
+.vitrinaTovar {
+    min-width: 220px;
+    max-width: 229px;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid #9bb3c7;
+    background-color: #ffffff;
+    font-family: HelveticaNCUL, sans-serif;
+    font-size: 15px;
+    color: #737373; 
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    
+}
+.vitrinaTovar p{
+    margin: 0;
+}
+.vitrinaTovar a {
+    color: #507299;
+    font-size: 17px;
+    font-family: HelveticaNCL, sans-serif;
+}
+.vitrinaTovar img{
+    margin-top: 0;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+.vitrinaTovar h5{
+    color: #222222;
+    font-size: 26px;
+    font-family: HelveticaNCR, sans-serif;
+}
+.vitrinaTovar h5 span{
+    font-size: 23px;
+}
+.vitrinaTovar a.basketTov{
+    padding: 5px 12px;
+    background-color: #dd4c57;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #dd4c57;
+}
+.vitrinaTovar a.basketTov:hover{
+    color: #dd4c57;
+    background-color: #ffffff;
+}
+.vitrinaTovar a.basketTov i{
+    font-size: 19px;
+}
+
+.search {
+    padding: 10px 10px 20px 12px;
+    min-width: 210px;
+    max-width: 220px;
+}
+
+.searchingpage {
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+/*----------------------po parametram---------*/
+
+.layout-slider { margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+     color: white;
+    font-family: HelveticaNCL, sans-serif;
+}
+.leftsidebar {
+    background-color: #ffffff;
+    color: #222222;
+    font-family: HelveticaNCUL, sans-serif;
+    font-size: 16px;
+    padding: 10px 10px 20px 15px;
+    border: 1px solid #9bb3c7;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.leftsidebar .checkbox {
+         
+}
+
+.checkbox {
+	position:relative;
+	height: 27px;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+.checkbox input[type=checkbox] {
+	display:none;
+}
+.checkbox label:after {
+	content:'';
+	display:block;
+	height:14px;
+	width:14px;
+	/*outline:2px solid #9bb3c7;*/
+	position:absolute;
+    border: 1px solid #9bb3c7;
+    border-radius: 3px;
+	top:0;
+	left:0;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+	/*outline:1px solid #939598;
+ */	  border: 1px solid #9bb3c7;
+	height:14px;
+	width:14px;
+	background-color:#507299;    
+}
+ /*----------------------- check----------*/
+.leftsidebar h4 {
+    color: #222222;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 21px;
+    padding-bottom: 0px;
+    margin: 5px auto 15px auto;
+}
+
+.redselect, .redmore {
+    color: #ffffff;
+    background-color: #dd4c57;
+    padding: 2px 10px 2px 10px;
+    font-size: 18px;
+    font-family: HelveticaNCL, sans-serif;
+    border: 1px solid #dd4c57;
+    border-radius: 0;
+    margin-top: 10px;
+}
+.redselect:hover, .redmore:hover {
+    color: #dd4c57;
+    background-color: #ffffff;
+}
+
+
+
+
+/*-------------------------- section order page ------------*/
+
+.orderpage {
+    background-color: #f4f4f4;
+    padding: 20px auto 20px auto;
+}
+
+/* right block basket */
+.basketorder {
+    padding: 10px  25px 10px 25px;
+    border: 2px solid #9bb3c7;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: HelveticaNCR, sans-serif;
+    color: #222222; 
+}
+.basketorder img {
+    margin-top: 5px;
+}
+.basketorder h6{
+    font-size: 21px;
+    font-family: HelveticaNCL, sans-serif;
+}
+.basketorder a {
+    font-size: 16px;
+    font-family: HelveticaNCL, sans-serif;
+    color: #507299;
+}
+.basketorder p {
+    color: #444444;
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 16px;
+}
+.basketorder p > span {
+    color: #737373;
+    font-size: 13px;
+}
+.basketorder .leftmarg {
+    padding-left: 0;
+    margin-left: 0px;
+}
+.basketorder h5{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.positionone {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.summa {
+    padding-top: 15px;
+    border-top: 1px solid #f4f4f4;
+}
+
+
+.summa h7,  .dostavkamany h7 {
+    font-family: HelveticaNCL, sans-serif;
+    font-size: 16px;
+}
+.dostavkamany {
+    margin-top: 7px;
+   
+}
+.basketorder .dostavkamany h4{
+    font-family: HelveticaNCT, sans-serif;
+    color: #444444;
+    font-size: 30px;
+    padding-top: 18px;
+}
+.basketorder .dostavkamany h4 span {
+    font-size: 21px;
+}
+.redorder {
+    background-color: #dd4c57;
+    color: #ffffff;
+    padding: 4px 14px 4px 14px;
+    font-size: 18px;
+    font-family: HelveticaNCL, sans-serif;
+    border: 1px solid #dd4c57;
+    border-radius: 0;
+}
+.redorder:hover {
+    color: #dd4c57;
+    background-color: #ffffff;
+}
+.orderpage input, .orderpage select{
+    border: 1.5px solid #99b1c6;
+    font-size: 18px;
+    color: #444444;
+    font-family: HelveticaNCL, sans-serif;
+    height: 35px;
+    padding-left: 12px;
+    padding-right: 7px;
+}
+.orderpage input{
+    width:300px;
+}
+.orderpage label {
+    font-size: 16px;
+    font-family: HelveticaNCUL, sans-serif;
+    color: #444444;
+    line-height: 2;
+    
+}
+.orderpage .margint {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+.orderpage form {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.orderpage h2{
+    font-family: HelveticaNCL, sans-serif;
+    font-style: 30px;
+    color: #222222;
+}
