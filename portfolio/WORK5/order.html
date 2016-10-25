@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Магазин</title>
+
+    <!-- Bootstrap -->
+    <link href="libs/bootstrap.css" rel="stylesheet">
+    <link href="libs/font-awesome.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header>
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-6 col-md-6 col-lg-6"></div>
+           <div class="col-sm-6 col-md-6 col-lg-6">
+               <ul class="topmenu pull-right">
+                   <li><a href="about.html">О компании</a></li>
+                   <li><a href="product.html">Витрина</a></li>
+                   <li><a href="order.html">Услуги</a></li>
+                   <li><a href="searching.html">Акции и предложения</a></li>
+                   <li><a href="contacts.html">Контакты</a></li>
+               </ul>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-1">
+               <img src="img/logo.png" alt="logo">
+           </div>
+           <div class="col-lg-3">
+              <h3 class="number">
+               +7 (8352) 27–07–87
+           </h3>
+           </div>
+           <div class="col-lg-4 place">
+               <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                  Пн-пт: 8.00-20.00 Сб-вс: 9.00-16.00
+               <br>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+                 Ленинского Комсомола, 37а
+               </p>
+           </div>
+           <div class="col-lg-4">
+              <div class="row  searchingdiv pull-right">
+                 <div class="col-lg-2"></div>
+                  <div class="col-lg-5">
+                      <div class="searching">
+                      <input type="submit" name="search" value="">
+                      <input type="search"   value="" placeholder="Что ищем?">
+               </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <a href="#" class="btn basket">
+                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                   Корзина пуста
+                   </a>
+                  </div>
+              </div>
+               
+             
+           </div>
+       </div>
+       <div class="row">
+           <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Автоаксессуары</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Автохолодильники</a></li>
+                    <li><a href="#">Защита и внешний тюнинг</a></li>
+                    <li><a href="#">Изделия из кожи</a></li>
+                    <li><a href="#">Инвентарь для ухода</a></li>
+                    <li><a href="#">Необходимый набор автомобилиста</a></li>
+                    <li><a href="#">Обустройство салона</a></li>
+                    <li><a href="#">Щетки стеклоочистителя</a></li>
+                </ul>
+                
+                
+            </li>
+            <li class="dropdown"><a href="#">АКБ</a></li>
+            <li class="dropdown"><a href="#">Автохимия</a></li>
+            <li class="dropdown"><a href="#">Запчасти</a></li>
+            <li class="dropdown"><a href="#">Набор инструментов</a></li>
+            <li class="dropdown"><a href="#">Оборудование для сервисов</a></li>
+            <li class="dropdown"><a href="#">Масло</a></li>
+            <li class="dropdown"><a href="#">Смазки</a></li>
+            <li class="dropdown"><a href="#">Электрика</a></li>
+            <li class="dropdown"><a href="#">Автолампы</a></li>
+           </ul>
+       </div>
+      
+    </div>
+    </header>
+
+    
+    <section class="orderpage">
+        <div class="container">
+            <div class="row">
+                <h2>Оформление заказа</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <form action="" id="order">
+                               <div class="row">
+                                <label for="">Ваше имя</label>
+                                </div>
+                                <div class="row">
+                                <input type="text" name="name">
+                                </div>
+                                <div class="row">
+                                <label for="">Ваша фамилия</label>
+                                </div>
+                                <div class="row">
+                                <input type="text" name="name">
+                                </div>
+                                <div class="row">
+                                <label for="">Мобильный телефон</label>
+                                </div>
+                                <div class="row">
+                                <input type="text" name="phone">
+                                </div>
+                                <div class="row">
+                                <label for="">Город</label>
+                                </div>
+                                <div class="row">
+                                <input type="text" name="city">
+                                </div>
+                                
+                                <div class="row margint">
+                                   <div class="col-lg-5">
+                                       <label for="">Способ доставки</label>
+                                   </div>
+                                   <div class="col-lg-5">
+                                       
+                                         <p><select>
+    <option>Доставка по России</option>
+    <option>Доставка по Челябинску</option>
+    <option>Самовывоз</option>
+     </select></p>
+                                   </div>
+                                    
+                                </div>
+                                
+                                 <div class="row margint">
+                                   <div class="col-lg-5">
+                                       <label for="">Служба доставки</label>
+                                   </div>
+                                   <div class="col-lg-5">
+                                       
+                                         <p><select> 
+                                             <option>Почта России</option><option>Пункт 1</option>    <option>Пункт 2</option>    </select></p>
+                                   </div>
+                                    
+                                </div>
+                                
+                                <div class="row margint">
+                                   <div class="col-lg-5">
+                                       <label for="">Отделение для выдачи</label>
+                                   </div>
+                                   <div class="col-lg-5">
+                                       
+                                         <p><select> 
+                                             <option>Отделение1</option><option>Пункт 1</option>    <option>Пункт 2</option>    </select></p>
+                                   </div>
+                                    
+                                </div>
+                                <div class="row margint">
+                                   <div class="col-lg-5">
+                                       <label for="">Способ оплаты</label>
+                                   </div>
+                                   <div class="col-lg-5">
+                                       
+                                         <p><select> 
+                                             <option>Наложенный платеж</option>
+                                             <option>Перевод</option>    <option>Пункт 2</option>    </select></p>
+                                   </div>
+                                    
+                                </div>
+                                <div class="row margint">
+                                   <div class="col-lg-9">
+                                    <a href="#" class="btn redorder">
+                                    Оформить заказ
+                                </a></div>
+                                </div>
+                                
+                            </form>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-5">
+                            <div class="basketorder">
+                                <h6>В корзине</h6>
+                                <div class="row positionone">
+                                    <div class="col-lg-3">
+                                        <img src="img/orderbasket.png" alt="foto">
+                                    </div>
+                                    <div class="col-lg-5 leftmarg">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                 <a href="#">Щетки Varta 23/4</a>
+                                            </div>
+                                            <div class="col-lg-2 text-right">
+                                                <p>1шт</p>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                        <p><span>код</span></p>
+                                    </div>
+                                    <div class="col-lg-4 text-right">
+                                        <h5>11 375 р.</h5>
+                                    </div>
+                                </div>
+                                
+                                   <div class="row positionone">
+                                    <div class="col-lg-3">
+                                        <img src="img/orderbasket.png" alt="foto">
+                                    </div>
+                                    <div class="col-lg-5 leftmarg">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                 <a href="#">Щетки Varta 23/4</a>
+                                            </div>
+                                            <div class="col-lg-2 text-right">
+                                                <p>1шт</p>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                        <p><span>код</span></p>
+                                    </div>
+                                    <div class="col-lg-4 text-right">
+                                        <h5>1 345 р.</h5>
+                                    </div>
+                                </div>
+                                <div class="summa">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h7>
+                                                Сумма заказа:
+                                            </h7>
+                                        </div>
+                                        <div class="col-lg-3"></div>
+                                        <div class="col-lg-3 text-right">
+                                            <h5>
+                                                12 154 р.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dostavkamany">
+                                     <div class="row">
+                                        <div class="col-lg-6">
+                                            <h7>
+                                                Доставка:
+                                            </h7>
+                                        </div>
+                                        <div class="col-lg-3"></div>
+                                         <div class="col-lg-3 text-right">
+                                             300 р.
+                                         </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6"></div>
+                                    <div class="col-lg-6 text-right">
+                                       <h4> 12 454 <span>р.</span></h4> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <footer>
+        <div class="container">
+        <div class="col-lg-5">
+            <div class="row logotop">
+               <div class="col-lg-2">
+                   <img src="img/logo.png" class="logofot" alt="logo">
+               </div>
+               <div class="col-lg-10">
+                   <p class="blockadress">
+                  Энергия авто — интернет-магазин товаров  
+                </p>
+                <p class="blockadress">
+                    для авто и мото техники в Чебоксарах
+                </p>
+               </div>
+            </div>
+            <div class="row bottomadress">
+                <p>
+                Ленинского Комсомола, 37а
+            </p>
+            <h4>
+                +7 (8352) 270787
+            </h4>
+            </div>
+            
+        </div>
+        <div class="col-lg-7">
+            <div class="row">
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot"> О компании
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Реквизиты</a></li>
+                        <li><a href="#">О компании </a></li>
+                        <li><a href="#">Наша корпоративная жизнь</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot"> Помощь
+                        <li><a href="#">Как сделать заказ</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 marginfoot">
+                    <ul class="menufoot">Юридическим лицам
+                        <li><a href="#">Покупка товаров(b2b)</a></li>
+                        <li><a href="#">Подарочные сертификаты</a></li>
+                        <li><a href="#">Loyalica</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="libs/bootstrap.js"></script>
+  </body>
+</html>
