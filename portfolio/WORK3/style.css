@@ -69,6 +69,12 @@ nav .container {
     border-bottom: 2px solid white;
     width: 296px;
 }
+
+.logo h1>span {
+    text-transform: uppercase;
+    float: right;
+    margin-right: 3px;
+}
 figure { 
     float: left;
     padding-right: 20px;
