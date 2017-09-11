@@ -68,6 +68,7 @@ nav .container {
     margin-left: 20px;
     border-bottom: 2px solid white;
     width: 296px;
+    min-height: 88px;
 }
 
 .logo h1>span {
